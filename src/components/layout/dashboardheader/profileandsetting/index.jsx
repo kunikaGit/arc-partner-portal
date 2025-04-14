@@ -8,9 +8,9 @@ const ProfileAndSetting = () => {
         <div className='profile-setting-wrapped'>
             <div className='profile-section'>
                 <div className='profile-img'>
-                    <img src={images['profile-boy.svg']} alt='profile' />
+                    <img src={images['avatar.png']} alt='profile' />
                 </div>
-                <div className='details'>
+                <div className='details'>   
                     <NavDropdown
                         title={
                             <div className='name'>
