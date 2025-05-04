@@ -7,6 +7,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: 100%;
+        overflow-x: auto;
         .left-side{
             display: flex;
             align-items: center;

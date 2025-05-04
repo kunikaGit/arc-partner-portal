@@ -128,9 +128,15 @@ input,textarea {
     .dashbord-page-content{
         &.minus200{
             width: calc( 100% - 200px);
+            @include media_1024{
+                width: 100%;
+            }
         }
         &.minus80{
             width: calc( 100% - 80px);
+            @include media_1024{
+                width: 100%;
+            }
         }
     }
 }

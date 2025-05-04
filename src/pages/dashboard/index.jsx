@@ -37,6 +37,7 @@ const Dashboard = () => {
                         </div>
                     </div>
                     <div className="graph-row-3" >
+                        <div className="box-row">
                         <div className="box1">
                             <div className="theme-card p-0">
                                 <div className="card-title">
@@ -52,6 +53,7 @@ const Dashboard = () => {
                                 </div>
                                 <AccountPie />
                             </div>
+                        </div>
                         </div>
                         <div className="box3">
                             <div className="theme-card p-0">

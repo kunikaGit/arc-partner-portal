@@ -1,8 +1,16 @@
+@use '../../assest/scss/abstract/mixins' as *;
+
 .update-wraped {
     .update-box {
         border-radius: 15px;
         overflow: hidden;
         width: 33%;
+        @include media_768 {
+            width:50%;
+        }
+        @include media_576 {
+            width:100%;
+        }
 
         .card_header {
             padding: 15px;
