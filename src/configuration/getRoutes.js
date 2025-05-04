@@ -1,31 +1,35 @@
 import React from "react";
 
-import { Dashboard, Insight } from "../pages";
+import { Dashboard, Lounge, Updates, UserList, Wallet } from "../pages";
 
 const RouteArr = [
-
-  // {
-  //   name: "Home",
-  //   path: "/",
-  //   key: "home",
-  //   route: "/home",
-  //   element: <Home />,
-  // },
-
-  //Insight
-  {
-    name: "Insight",
-    path: "/insight",
-    key: "insight",
-    route: "/insight",
-    element: <Insight />,
-  },
 
   //dashboard
   {
     path: "/",
     element: <Dashboard />,
   },
- 
+  //lounge
+  {
+    path: "/lounge",
+    element: <Lounge />,
+  },
+  // user list 
+  {
+    path: "/users",
+    element: <UserList />,
+  },
+  // wallet 
+  {
+    path: "/wallet",
+    element: <Wallet />,
+  },
+
+   // Updates 
+   {
+    path: "/updates",
+    element: <Updates />,
+  },
+
 ];
 export default RouteArr;

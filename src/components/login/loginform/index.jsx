@@ -1,13 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { EyeIcon } from '../../../icons/icons'
-import useLoginUtils from '../loginUtils'
-import UnableLoginModal from '../unable_login_modal'
+
 
 const LoginForm = () => {
-    const {openUnableLoginModal,
-        handleCloseUnableLoginModal,
-        handleOpenUnableLoginModal} = useLoginUtils()
+
 
     return (
         <div className='login'>
@@ -30,7 +27,7 @@ const LoginForm = () => {
                     <Link to="/reset">Forgot password</Link>
                 </div>
                 <div className='submit_button'>
-                    <button type='submit' className='btn_primary' onClick={handleOpenUnableLoginModal}>
+                    <button type='submit' className='btn_primary' >
                         Sign in
                     </button>
                 </div>
@@ -38,7 +35,6 @@ const LoginForm = () => {
                     <span>Don’t have an account? Contact admin for account creation</span>
                 </div>
             </div>
-            <UnableLoginModal openModal={openUnableLoginModal} closeModal={handleCloseUnableLoginModal}/>
         </div>
     )
 }

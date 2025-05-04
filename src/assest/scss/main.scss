@@ -32,7 +32,7 @@ body {
         font-size: var(--font_12);
     }
     a{
-        color: var(--theme-blue);
+        color: var(--theme-purple);
         text-decoration: none;
         &:hover{
             text-decoration: none;
@@ -92,7 +92,7 @@ input,textarea {
     }
 }
 .btn_primary{
-    background-color: var(--theme-blue);
+    background-color: var(--theme-purple);
     font-weight: 700;
     font-family: var(--Quicksand);
     line-height: 20px;

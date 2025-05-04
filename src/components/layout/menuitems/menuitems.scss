@@ -122,23 +122,22 @@
           height: unset;
           padding: 8px 10px;
           transition: .3s;
+          border-radius: 20px;
           margin: 10px;
           @include media_1280 {
             margin-bottom: 5px;
           }
 
           &:hover {
-            background-color: #4679BD40;
-
-            .name {
-              color: var(--theme-blue);
-            }
-
-            svg {
-              path {
-                fill: var(--theme-blue);
-              }
-            }
+            background-color: var(--theme-purple);
+                  .name{
+                  color: var(--white-color);
+                }
+                svg {
+                  path {
+                    fill: var(--white-color);
+                  }
+                }
           }
         }
 

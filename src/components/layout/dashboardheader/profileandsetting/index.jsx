@@ -31,7 +31,7 @@ const ProfileAndSetting = () => {
                 <Link to=""><img src={Icons['setting.svg']} alt='setting' /></Link>
             </div> */}
         </div>
-    )
+    )   
 }
 
 export default ProfileAndSetting

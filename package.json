@@ -3,9 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.0",
-    "@mui/material": "^6.3.1",
+    "@mui/x-date-pickers": "^8.2.0",
     "@uidotdev/usehooks": "^2.4.1",
     "apexcharts": "^4.3.0",
     "bootstrap": "^5.3.3",
@@ -29,7 +27,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint ."
-    
   },
   "eslintConfig": {
     "extends": [
@@ -37,7 +34,6 @@
       "react-app/jest"
     ]
   },
-  
   "browserslist": {
     "production": [
       ">0.2%",

@@ -2,13 +2,13 @@ import React from "react";
 import { Menu, SubMenu } from "react-pro-sidebar";
 import { images } from "../../../utils/customFn";
 import './menuitems.scss'
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import ProfileAndSetting from "../dashboardheader/profileandsetting";
 import { FileIcon, HomeIcon, NotificationsIcon, SettingIcon, UserIcon, WalletFilled } from "../../../icons/icons";
 
 const MenuItems = () => {
   const location = useLocation();
-  // const navigate = useNavigate()
+  const navigate = useNavigate()
   const SidebarItems = [
     {
       name: 'Home',
@@ -17,22 +17,22 @@ const MenuItems = () => {
     },
     {
       name: 'Affiliate Lounge',
-      link: '#',
+      link: '/lounge',
       imagepath: <FileIcon />
     },
     {
       name: 'User List',
-      link: '#',
+      link: '/users',
       imagepath: <UserIcon />
     },
     {
       name: 'Wallet',
-      link: '#',
+      link: '/wallet',
       imagepath: <WalletFilled />
     },
     {
       name: 'Updates',
-      link: '#',
+      link: '/updates',
       imagepath: <NotificationsIcon />
     },
     {
@@ -64,6 +64,7 @@ const MenuItems = () => {
             <SubMenu
               key={index}
               className={`${isActive ? 'active' : ''} main-menu-tab`}
+              onClick={()=>navigate(item.link)}
               label={
                 <div className="sidebar_label">
                   <div className="icon">
