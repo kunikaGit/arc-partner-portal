@@ -83,18 +83,17 @@
             }
 
             .box1 {
-                width: 25%;
-
+                width: 50%;
                 @include media_768 {
-                    width: 50%;
+                    width: 100%;
                 }
             }
 
             .box2 {
-                width: 25%;
+                width: 50%;
 
                 @include media_768 {
-                    width: 50%;
+                    width: 100%;
                 }
             }
 

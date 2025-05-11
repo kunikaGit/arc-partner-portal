@@ -33,27 +33,27 @@ const Dashboard = () => {
                             </div>
                         </div>
                         <div className="right-side">
-                          <Claimbox/>
+                            <Claimbox />
                         </div>
                     </div>
                     <div className="graph-row-3" >
                         <div className="box-row">
-                        <div className="box1">
-                            <div className="theme-card p-0">
-                                <div className="card-title">
-                                    <h3>Partner Summary</h3>
+                            <div className="box1">
+                                <div className="theme-card p-0">
+                                    <div className="card-title">
+                                        <h3>Partner Summary</h3>
+                                    </div>
+                                        <PieChart />
                                 </div>
-                                <PieChart />
                             </div>
-                        </div>
-                        <div className="box2">
-                            <div className="theme-card p-0">
-                                <div className="card-title">
-                                    <h3>Revenue By Acc Size</h3>
+                            <div className="box2">
+                                <div className="theme-card p-0">
+                                    <div className="card-title">
+                                        <h3>Revenue By Acc Size</h3>
+                                    </div>
+                                    <AccountPie />
                                 </div>
-                                <AccountPie />
                             </div>
-                        </div>
                         </div>
                         <div className="box3">
                             <div className="theme-card p-0">
