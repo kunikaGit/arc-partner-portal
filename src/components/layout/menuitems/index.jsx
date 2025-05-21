@@ -1,6 +1,5 @@
 import React from "react";
 import { Menu, SubMenu } from "react-pro-sidebar";
-import { images } from "../../../utils/customFn";
 import './menuitems.scss'
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import ProfileAndSetting from "../dashboardheader/profileandsetting";
@@ -48,10 +47,8 @@ const MenuItems = () => {
   // }
   return (
     <div className="sidebar-menus">
-      <Link to="/">
-        <div className="sidebarlogo">
-          <img src={images['logo.png']} alt="logo" />
-        </div>
+      <Link to='/' className='logo-text animate-gradient  block text-center d-block'>
+        ARC
       </Link>
       <div className="show-in-mobile">
         <ProfileAndSetting />
@@ -64,7 +61,7 @@ const MenuItems = () => {
             <SubMenu
               key={index}
               className={`${isActive ? 'active' : ''} main-menu-tab`}
-              onClick={()=>navigate(item.link)}
+              onClick={() => navigate(item.link)}
               label={
                 <div className="sidebar_label">
                   <div className="icon">

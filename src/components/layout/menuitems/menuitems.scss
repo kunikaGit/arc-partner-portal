@@ -1,6 +1,11 @@
 @use '../../../assest/scss/abstract/mixins' as *;
 
 .sidebar-menus {
+  .logo-text{
+    font-size: 50px;
+    font-weight: 900;
+    padding: 50px 0;
+  }
   .show-in-mobile {
     display: none;
     padding: 0 5px;
@@ -64,7 +69,7 @@
     }
 
     .name {
-      font-weight: 700;
+      font-weight: 400;
       color: var(--color_202224);
       line-height: 20px;
       font-size: var(--font_16);

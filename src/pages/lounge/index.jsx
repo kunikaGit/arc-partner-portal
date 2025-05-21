@@ -77,7 +77,6 @@ const Lounge = () => {
                             </div>
                         ))}
                     </div>
-                    <div className="two-grid">
                         <div className="four-grid-cards">
                             {levelcards.map((item, index) => (
                                 <div className="card-purple" key={index}>
@@ -118,7 +117,7 @@ const Lounge = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    
                 </div>
             </div>
         </>

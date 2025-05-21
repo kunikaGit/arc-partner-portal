@@ -1,31 +1,36 @@
 @font-face {
-	font-family: "Quicksand";
-	src: url("../../fonts/quicksand/Quicksand-Bold.ttf");
+	font-family: "Outfit";
+	src: url("../../fonts/Outfit/static/Outfit-ExtraBold.ttf");
+	font-weight: 900;
+}
+@font-face {
+	font-family: "Outfit";
+	src: url("../../fonts/Outfit/static/Outfit-Bold.ttf");
 	font-weight: 700;
 }
 @font-face {
-	font-family: "Quicksand";
-	src: url("../../fonts/quicksand/Quicksand-SemiBold.ttf");
+	font-family: "Outfit";
+	src: url("../../fonts/Outfit/static/Outfit-SemiBold.ttf");
 	font-weight: 600;
 }
 @font-face {
-	font-family: "Quicksand";
-	src: url("../../fonts/quicksand/Quicksand-Medium.ttf");
+	font-family: "Outfit";
+	src: url("../../fonts/Outfit/static/Outfit-Medium.ttf");
 	font-weight: 500;
 }
 @font-face {
-	font-family: "Quicksand";
-	src: url("../../fonts/quicksand/Quicksand-Regular.ttf");
+	font-family: "Outfit";
+	src: url("../../fonts/Outfit/static/Outfit-Regular.ttf");
 	font-weight: 400;
 }
 @font-face {
-	font-family: "Quicksand";
-	src: url("../../fonts/quicksand/Quicksand-Light.ttf");
+	font-family: "Outfit";
+	src: url("../../fonts/Outfit/static/Outfit-Light.ttf");
 	font-weight: 300;
 }
 // Font Family
-$Font_Quicksand: Quicksand;
+$Font_Outfit: Outfit;
 
 :root{
-	--Quicksand:Quicksand;
+	--Outfit:Outfit;
 }

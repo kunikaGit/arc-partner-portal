@@ -33,7 +33,7 @@
                  }
                 .card_title {
                     font-size: var(--font_16);
-                    font-weight: 600;
+                    font-weight: 500;
                     color: #202224;
                     @include media_1280{
                       font-size: var(--font_14);
@@ -41,7 +41,7 @@
                 }
 
                 .card_data {
-                    font-weight: 700;
+                    font-weight: 500;
                     font-size: var(--font_28);
                     @include media_1280{
                         font-size: var(--font_20);
@@ -57,7 +57,7 @@
 
             .about-data {
                 color: var(--color_647C9B);
-                font-weight: 600;
+                font-weight: 500;
             }
 
             .rang {
@@ -65,7 +65,7 @@
                 gap: 10px;
                 align-items: center;
                 span{
-                    font-weight: 600;
+                    font-weight: 500;
                 }
                 &.down{
                     span{

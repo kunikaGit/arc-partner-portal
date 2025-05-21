@@ -83,7 +83,7 @@
   }
 };
 
-@mixin main_heading($size, $color, $ff: var(--Quicksand), $fw: 700) {
+@mixin main_heading($size, $color, $ff: var(--Outfit), $fw: 700) {
   font-size: $size;
   color: $color;
   font-family: $ff;

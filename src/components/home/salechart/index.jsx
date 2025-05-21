@@ -50,7 +50,7 @@ const SaleChart = () => {
                     style: {
                         colors: "#8A92A6",
                         fontSize: "var(--font_16)",
-                        fontFamily: 'var(--Quicksand)'
+                        fontFamily: 'var(--Outfit)'
                     },
                 },
                 tickPlacement: "on", // Ensures the ticks align with each label
@@ -60,7 +60,7 @@ const SaleChart = () => {
                     style: {
                         colors: "#8A92A6",
                         fontSize: "var(--font_16)",
-                        fontFamily: 'var(--Quicksand)'
+                        fontFamily: 'var(--Outfit)'
 
                     },
                 },
@@ -75,11 +75,11 @@ const SaleChart = () => {
                 position: "top",
                 horizontalAlign: "center",
                 fontSize: "var(--font_16)",
-                fontFamily: 'var(--Quicksand)',
+                fontFamily: 'var(--Outfit)',
                 labels: {
                     colors: "#8A92A6",
                     fontSize: "var(--font_16)",
-                    fontFamily: 'var(--Quicksand)',
+                    fontFamily: 'var(--Outfit)',
                 },
             },
         },

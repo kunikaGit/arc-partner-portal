@@ -13,7 +13,7 @@ const RevenueChart = () => {
         width:'100%',
         type: 'bar',
       },
-      colors: ["#8358ff", "#F68C1E"],
+      colors: ["#00bcde", "#F68C1E"],
       plotOptions: {
         bar: {
           borderRadius: 10,

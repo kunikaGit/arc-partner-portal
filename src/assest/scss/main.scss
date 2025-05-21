@@ -19,7 +19,7 @@
     height: 4px;
   }
 body {
-    font-family: var(--Quicksand);
+    font-family: var(--Outfit);
     font-weight: 400;
     color: var(--black-color);
     font-size: var(--font_16);
@@ -73,7 +73,7 @@ input,textarea {
     border: 1px solid var(--light-blue);
     &::placeholder {
         color: var(--color_647C9B);
-        font-family: var(--Quicksand);
+        font-family: var(--Outfit);
         font-size: var(--font_16);
         @include media_1600 {
             font-size: var(--font_14);
@@ -94,7 +94,7 @@ input,textarea {
 .btn_primary{
     background-color: var(--theme-purple);
     font-weight: 700;
-    font-family: var(--Quicksand);
+    font-family: var(--Outfit);
     line-height: 20px;
     text-align: center;
     padding: 12.5px;
@@ -156,4 +156,27 @@ input,textarea {
             }
         }
     } 
+}
+
+@keyframes gradient {
+    to {
+        background-position: 200%
+    }
+}
+
+.animate-gradient {
+    animation: gradient 6s linear infinite
+}
+
+.animate-gradient {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(270deg, #ff7356, #ff59e2 25.52%, #52ddf6 50%, #eadf4e 76.04%, #ff7356);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text
+}
+.logo-text{
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: -5px;
 }
