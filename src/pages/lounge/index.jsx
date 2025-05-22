@@ -54,6 +54,48 @@ const tableData = [
         commission: "12%",
         totalcommission: "12%"
     },
+        {
+        level: 1,
+        people: 5,
+        sales: "10,000",
+        commission: "12%",
+        totalcommission: "12%"
+    },
+    {
+        level: 2,
+        people: 5,
+        sales: "10,000",
+        commission: "12%",
+        totalcommission: "12%"
+    },
+    {
+        level: 3,
+        people: 5,
+        sales: "10,000",
+        commission: "12%",
+        totalcommission: "12%"
+    },
+        {
+        level: 1,
+        people: 5,
+        sales: "10,000",
+        commission: "12%",
+        totalcommission: "12%"
+    },
+    {
+        level: 2,
+        people: 5,
+        sales: "10,000",
+        commission: "12%",
+        totalcommission: "12%"
+    },
+    {
+        level: 3,
+        people: 5,
+        sales: "10,000",
+        commission: "12%",
+        totalcommission: "12%"
+    },
     {
         level: 'Total',
         people: 5,
